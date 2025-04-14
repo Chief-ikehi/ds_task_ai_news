@@ -1,14 +1,16 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from news_fetcher import NewsFetcher
 from embeddings import EmbeddingGenerator
 from vector_store import VectorStore
 from llm_analyzer import LLMAnalyzer
+from recommender import Recommender  # Import the new Recommender class
 
 app = FastAPI(title="DS Task AI News")
 news_fetcher = NewsFetcher()
 embedding_generator = EmbeddingGenerator()
 vector_store = VectorStore()
 llm_analyzer = LLMAnalyzer()
+recommender = Recommender(vector_store, embedding_generator)  # Create a Recommender instance
 
 @app.get("/")
 async def root():
@@ -31,26 +33,15 @@ async def fetch_news():
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/similar-articles/{article_id}")
-async def get_similar_articles(article_id: str):
+# Endpoint as specified in the README
+@app.get("/recommend-news")
+async def recommend_news(article_id: str = Query(..., description="ID of the article to find similar articles for")):
     try:
         # Fetch all articles to have the full context
         articles = news_fetcher.fetch_articles()
-        articles_dict = {article['id']: article for article in articles}
         
-        # Find the query article
-        query_article = next((article for article in articles if article['id'] == article_id), None)
-        if not query_article:
-            raise HTTPException(status_code=404, detail="Article not found")
-        
-        # Generate embedding for the query article
-        query_embedding = embedding_generator.get_article_embeddings([query_article])[article_id]
-        
-        # Find similar articles
-        similar_article_ids = vector_store.search_similar(query_embedding, k=5)
-        
-        # Get the full article data for similar articles
-        similar_articles = [articles_dict[aid] for aid in similar_article_ids if aid != article_id]
+        # Use the recommender to find similar articles
+        similar_articles = recommender.get_similar_articles(article_id, articles)
         
         return {"status": "success", "similar_articles": similar_articles}
     except Exception as e:

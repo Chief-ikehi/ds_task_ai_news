@@ -1,0 +1,30 @@
+{
+  "id": "56b8f1293234ee88c4024bb089c38214",
+  "title": "Brass Typhoon: The Chinese Hacking Group Lurking in the Shadows",
+  "content": "Though less well-known than groups like Volt Typhoon and Salt Typhoon, Brass Typhoon, or APT 41, is an infamous, longtime espionage actor that foreshadowed recent telecom hacks.",
+  "date": "Mon, 14 Apr 2025 10:00:00 +0000",
+  "link": "https://www.wired.com/story/brass-typhoon-china-cyberspies/",
+  "source": "https://www.wired.com/feed/rss",
+  "categories": [
+    "Security",
+    "Security / Cyberattacks and Hacks",
+    "Security / National Security",
+    "Security / Security News",
+    "China",
+    "hacks",
+    "cybersecurity",
+    "hacking",
+    "malware",
+    "Crime",
+    "espionage",
+    "national security",
+    "Bad Company"
+  ],
+  "fetch_timestamp": "2025-04-14T23:32:59.710382",
+  "processed": true,
+  "full_content": "Save this story Save Save this story Save As China continues its digital gambit around the world, researchers are warning that hacking activity from long-tracked groups is evolving and blending together. On top of that, attackers are hiding their campaigns more effectively and blurring the lines between cybercriminals and state-backed hacking. Last year, revelations rocked the United States federal government that the Chinese hacking group known as “Salt Typhoon” had breached at least nine major US telecoms. And the group’s rampage even continued into this year in the US and other countries around the world. Meanwhile, the Beijing-linked hacking group “Volt Typhoon” has continued to lurk in US critical infrastructure and utilities around the world. Meanwhile, the notoriously versatile syndicate known as Brass Typhoon—also called APT 41 or Barium—has been operating in the shadows. This article is part of WIRED's Guide to the Most Dangerous Hackers You've Never Heard Of . You can read the rest of the series here . The group, which researchers have been tracking since about 2012, has quietly continued its broad targeting around the world over the past year. Brass Typhoon has cast a wide net, leading researchers to view it as a sort of broad coalition that has attacked everything from a US livestock app to source code and chip designs from Taiwan’s semiconductor industry and even power grids . And over the last year, the group has compromised international institutions in the tech and automotive sectors, materials, shipping and logistics, media, and more, using new and refined malware in an array of sustained campaigns . “They’re absolutely still active and still evolving,” says John Hultquist, who leads threat intelligence at the Google-owned cybersecurity firm Mandiant. “But it’s harder to attribute some of this activity than it was in the past, because it’s all part of a much bigger ecosystem of China’s activity which has been deliberately built to create a tremendous amount of capability.” Brass Typhoon is known for having carried out a notable string of software supply chain attacks in the late 2010s and for brazen attacks on telecoms around the same time in which the group specifically targeted call record data. The gang is also known for its hybrid activity , carrying out hacks that align with Chinese state-sponsored espionage by the Chinese Ministry of State Security, but also moonlighting on seemingly cybercriminal projects, particularly focused on the video game industry and in-game currency scams. Research indicates that Brass Typhoon has continued to be active in recent months with financial crimes targeting online gambling platforms as well as espionage targeting manufacturing and energy firms. Its sustained activity has run in parallel to Salt and Volt Typhoon’s recent, attention-grabbing campaigns, and analysis increasingly shows that China’s state-backed hacking operations must be viewed comprehensively, not just in terms of individual actors. “I think we should not get too down the rabbit hole of is it Salt? Is it Flax? Is it Volt?” former US Cybersecurity and Infrastructure Security Agency director Jen Easterly told WIRED during her last days in that role in January, referring to an array of Beijing-linked hacking groups. “At the end of the day, China, as we've seen in assessments from the Intelligence Community, is the most formidable, persistent cyber threat that we are dealing with.” Hultquist agrees, emphasizing that while tracking the activity of individual groups is still vital, it is increasingly important for defenders to factor in the advantages that state espionage and offensive hacking operations gain from broad collaboration. “There was a time when there were very simple indicators that told us who each actor was, and they were operating incredibly loudly, so it was easy to spot the smash-and-grab nature of the activity,” he says. “APT 41 is still doing some loud activity, but so much of its activity now has gotten better and they’ve made an effort to really avoid our controls.” Ultimately, though, researchers say that the most significant takeaway about Brass Typhoon’s current activity is that it continues apace.",
+  "domain": "www.wired.com",
+  "summary": "Save this story Save Save this story Save As China continues its digital gambit around the world, researchers are warning that hacking activity from long-tracked groups is evolving and blending together. On top of that, attackers are hiding their campaigns more effectively and blurring the lines between cybercriminals and state-backed hacking. Last year, revelations rocked the United States federal government that the Chinese hacking group known as “Salt Typhoon” had breached at least nine major...",
+  "reading_time_minutes": 3,
+  "processed_timestamp": "2025-04-14T23:33:00.164413"
+}
