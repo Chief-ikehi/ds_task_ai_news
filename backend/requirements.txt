@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+feedparser
+cohere
+groq
+pydantic
+faiss-cpu
+numpy
+pydantic-settings
+nltk
+beautifulsoup4
+requests

@@ -1,0 +1,17 @@
+{
+  "id": "04bd66592c57f32ba1f2746e0a2cc981",
+  "title": "Apple&#8217;s complicated plan to improve its AI while protecting privacy",
+  "content": "Apple says it’s found a way to make its AI models better without training on its users’ data or even copying it from their iPhones and Macs. In a blog post first reported on by Bloomberg, the company outlined its plans to have devices compare a synthetic dataset to samples of recent emails or messages [&#8230;]",
+  "date": "2025-04-14T16:37:35-04:00",
+  "link": "https://www.theverge.com/news/648496/apple-improve-ai-models-differential-privacy",
+  "source": "https://www.theverge.com/rss/index.xml",
+  "categories": [
+    "AI",
+    "Apple",
+    "iPhone",
+    "News",
+    "Tech"
+  ],
+  "fetch_timestamp": "2025-04-14T22:59:23.358942",
+  "processed": false
+}
