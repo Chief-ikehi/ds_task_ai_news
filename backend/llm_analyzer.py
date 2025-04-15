@@ -15,7 +15,7 @@ class LLMAnalyzer:
             api_key=settings.GROQ_API_KEY,
             http_client=http_client
         )
-        # Using the latest Mixtral model from Groq
+        # Using a llama model from Groq
         self.model = "llama-3.3-70b-versatile"
     
     async def analyze_article(self, article: Dict) -> Dict:
